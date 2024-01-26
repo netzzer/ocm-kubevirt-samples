@@ -13,5 +13,5 @@ spec:
   resources:
     requests:
       storage: 128Mi
-  storageClassName: ocs-storagecluster-ceph-rbd
+  storageClassName: ocs-external-storagecluster-ceph-rbd
   volumeMode: Block
